@@ -1,0 +1,10 @@
+configuracao,familia,download_mbps,upload_mbps,lat_download_iqm_ms,lat_download_pico_ms,lat_upload_iqm_ms,lat_upload_pico_ms,ping_1111_carga_media_ms,ping_1111_carga_p95_ms,ping_1111_carga_max_ms,ping_1111_carga_perdidos,ping_1111_carga_amostras
+sem limite nenhum,IPv4,928,435,3.9,215,50.8,68,48.31,129,390,18,53
+limite por porta do switch (950M/400M),IPv4,839,382,2.9,210,10.1,222,14.49,23,27,2,47
+CAKE no upload 200M,IPv4,814,195,3.3,215,1.4,4,13.81,19,23,0,74
+antes das correcoes da auditoria,IPv4,794,194,4.3,215,2.2,209,12.03,15,17,1,62
+depois das correcoes da auditoria,IPv4,816,194,3.7,215,1.7,7,12.19,16,20,3,73
+antes das correcoes da auditoria,IPv6,861,192,14,238,2.7,62,20.16,53,181,8,57
+depois das correcoes da auditoria,IPv6,863,192,7.9,230,1.9,16,20.81,32,236,6,58
+teste: policer de entrada 950M na ether1 (desfeito),IPv6,864,192,6.8,238,2,7,29.19,196,262,10,64
+teste: policer de entrada 850M na ether1 (desfeito),IPv6,783,192,33.4,479,1.9,221,23.72,82,235,14,75

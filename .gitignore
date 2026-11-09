@@ -1,0 +1,11 @@
+# Speedtest CLI (Ookla) nao e redistribuido
+scripts/speedtest.exe
+scripts/speedtest.md
+# Saidas locais dos scripts
+scripts/medicoes/
+scripts/vigia-conntrack.txt
+# Capturas e backups do roteador nunca entram no repositorio
+*.pcap
+*.pcapng
+*.backup
+*.bin
